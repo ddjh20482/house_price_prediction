@@ -76,6 +76,7 @@ Validation score: 0.6523981556506147
 X-test score:     0.6352544653210463
 
 R2 score:         0.6352544653210463
+
 Mean^2 Error:     0.601024386635919
 
 ![final_model_coefficient](./images/final_model_coef.png)
@@ -102,39 +103,23 @@ QQ-plot shows a slight skewness, but most values are close to the line. This hol
 
 No values are above 5. It seems the "sqft_living" column has some dependency, but it is not critically high to reject the assumption.
 
-sqft_living            3.001670
-
-sqft_lot               1.552016
-
-floors                 2.046914
-
-yr_built               1.758294
-
-waterfront             1.086293
-
-view                   1.313341
-
-is_renovated           1.148279
-
-has_basement           2.441147
-
-condition_Fair         1.042169
-
-condition_Good         1.647135
-
-condition_Very Good    1.281906
-
-grade_11 Excellent     1.278034
-
-grade_6 Low Average    1.939542
-
-grade_7 Average        2.077564
-
-grade_8 Good           1.609822
-
-grade_9 Better         1.440610
-
-interaction            1.374175
+|sqft_living            |3.001670|
+|sqft_lot               |1.552016|
+|floors                 |2.046914|
+|yr_built               |1.758294|
+|waterfront             |1.086293|
+|view                   |1.313341|
+|is_renovated           |1.148279|
+|has_basement           |2.441147|
+|condition_Fair         |1.042169|
+|condition_Good         |1.647135|
+|condition_Very Good    |1.281906|
+|grade_11 Excellent     |1.278034|
+|grade_6 Low Average    |1.939542|
+|grade_7 Average        |2.077564|
+|grade_8 Good           |1.609822|
+|grade_9 Better         |1.440610|
+|interaction            |1.374175|
 
 **4. Homoscedasticity**
 
