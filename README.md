@@ -24,9 +24,9 @@ The steps are briefly explained. Please refer to the EDA notebooks for the detai
 
 Missing values from three columns, waterfront, view, and yr_renovated, are removed.
 
-The "waterfront" column has two values, 'NO' and 'YES'. The missing values are converted to 'NO'.
-The "view" column has values of four ratings and 'NONE'. The missing values are converted to 'NONE'.
-The "yr_renovated" column has values of years and zeroes where zeroes mean the house has not been renovated. The missing values are converted to zeroes. Then, a new binary column is created to store information if the house is renovated or not.
+- The "waterfront" column has two values, 'NO' and 'YES'. The missing values are converted to 'NO'.
+- The "view" column has values of four ratings and 'NONE'. The missing values are converted to 'NONE'.
+- The "yr_renovated" column has values of years and zeroes where zeroes mean the house has not been renovated. The missing values are converted to zeroes. Then, a new binary column is created to store information if the house is renovated or not.
 
 ### Basic cleaning
 
