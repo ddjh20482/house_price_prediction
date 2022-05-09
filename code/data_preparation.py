@@ -145,12 +145,12 @@ def scores(X_train, y_train, X_test, y_test):
     print("Train score:     ", baseline_scores["train_score"].mean())
     print("Validation score:", baseline_scores["test_score"].mean())
 
-    print("X-test score:", model.score(X_test, y_test))
+    print("X-test score:    ", model.score(X_test, y_test))
 
     y_pred = model.predict(X_test)
-    print("R2 score:", r2_score(y_test, y_pred))
+    print("R2 score:        ", r2_score(y_test, y_pred))
 
-    print("Mean**2 Error", mean_squared_error(y_test, y_pred, squared=False))
+    print("Mean**2 Error:   ", mean_squared_error(y_test, y_pred, squared=False))
     
     pass
 
