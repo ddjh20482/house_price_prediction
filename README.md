@@ -69,11 +69,11 @@ Multicollinearity is checked using heatmap.
 
 Please refer to **EDA - Model Validation**  and **EDA - Interaction** for the details on validating the final model. The columns for bathrooms and bedrooms are removed, and then an interaction column is added to increase the R-squared score.
 
-Train score:      0.6532701480220614 \p
-Validation score: 0.6523981556506147 \p
-X-test score:     0.6352544653210463 \p
-R2 score:         0.6352544653210463 \p
-Mean^2 Error      0.601024386635919 \p
+Train score:      0.6532701480220614 /p
+Validation score: 0.6523981556506147 /p
+X-test score:     0.6352544653210463 /p
+R2 score:         0.6352544653210463 /p
+Mean^2 Error      0.601024386635919 /p
 
 ![final_model_coefficient](./images/final_model_coef.png)
 
