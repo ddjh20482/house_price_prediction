@@ -69,11 +69,15 @@ Multicollinearity is checked using heatmap.
 
 Please refer to **EDA - Model Validation**  and **EDA - Interaction** for the details on validating the final model. The columns for bathrooms and bedrooms are removed, and then an interaction column is added to increase the R-squared score.
 
-Train score:      0.6532701480220614 /p\p
-Validation score: 0.6523981556506147 /p
-X-test score:     0.6352544653210463 \p
-R2 score:         0.6352544653210463 /p
-Mean^2 Error      0.601024386635919 /p
+Train score:      0.6532701480220614
+
+Validation score: 0.6523981556506147
+
+X-test score:     0.6352544653210463
+
+R2 score:         0.6352544653210463
+
+Mean^2 Error      0.601024386635919
 
 ![final_model_coefficient](./images/final_model_coef.png)
 
@@ -127,23 +131,40 @@ There is a slight pattern on the right side of the plot, but overal it is not ea
 
 Example values are set for the analysis in the below dictionary. The assigned values can be modified for a different result.
 
-'sqft_living': 2000,
-'sqft_lot': 5000,
-'floors': 3,
-'yr_built': 2000,
-'waterfront': 0,
-'view': 0,
-'is_renovated': 0,
-'has_basement': 0,
-'condition_Fair': 0,
-'condition_Good': 0,
-'condition_Very Good': 0,
-'condition_Average': 1,
-'grade_11 Excellent': 0,
-'grade_6 Low Average': 0,
-'grade_7 Average': 1,
-'grade_8 Good': 0,
-'grade_9 Better':0 ,
+'sqft_living': 2000
+
+'sqft_lot': 5000
+
+'floors': 3
+
+'yr_built': 2000
+
+'waterfront': 0
+
+'view': 0
+
+'is_renovated': 0
+
+'has_basement': 0
+
+'condition_Fair': 0
+
+'condition_Good': 0
+
+'condition_Very Good': 0
+
+'condition_Average': 1
+
+'grade_11 Excellent': 0
+
+'grade_6 Low Average': 0
+
+'grade_7 Average': 1
+
+'grade_8 Good': 0
+
+'grade_9 Better':0 
+
 'grade_10 Very Good':0
 
 The estimated price of a house with the example features is **$382,360.**
