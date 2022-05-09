@@ -66,7 +66,7 @@ def price_living_space(est_price):
     
     fig, ax = plt.subplots(figsize=(8,4))
     ax.plot(np.arange(1000, 4000, 100), est_price)
-    ax.set_title('House Price by Living Space', fontsize=25)
+    ax.set_title('Expected House Price by Living Space', fontsize=25)
     ax.set_ylabel('House Price', fontsize=18)
     ax.set_xlabel('Squared Feet of Living Space', fontsize=18)
     ax.yaxis.set_major_formatter('${x:1.0f}K')
@@ -80,7 +80,7 @@ def price_floor(est_price):
     
     fig, ax = plt.subplots(figsize=(8,4))
     ax.barh([str(i) for i in range(1, 5)], est_price)
-    ax.set_title('House Price by Number of Floors', fontsize=25)
+    ax.set_title('Expected House Price by Number of Floors', fontsize=25)
     ax.set_xlabel('House Price', fontsize=18)
     ax.set_ylabel('Number of Floors', fontsize=18)
     ax.xaxis.set_major_formatter('${x:1.0f}K')
@@ -97,7 +97,7 @@ def est_price_condition(est_price_condition):
     condition_name = ['condition_Fair', 'condition_Average', 'condition_Good','condition_Very Good']
     
     ax.barh(condition_name, [i/1000 for i in est_price_condition])
-    ax.set_title('House Price by Maintenance', fontsize=25)
+    ax.set_title('Expected House Price by Maintenance', fontsize=25)
     ax.set_xlabel('House Price', fontsize=18)
     ax.set_ylabel('House  Condition', fontsize=18)
     ax.xaxis.set_major_formatter('${x:1.0f}K')
@@ -115,7 +115,7 @@ def est_price_reno(est_price_reno):
     
     fig, ax = plt.subplots(figsize=(8,4))
     plt.barh(['NO', 'YES'], [i/1000 for i in est_price_reno])
-    ax.set_title('House Price by Renovation', fontsize=25)
+    ax.set_title('Expected House Price by Renovation', fontsize=25)
     ax.set_xlabel('House Price', fontsize=18)
     ax.set_ylabel('Renovation', fontsize=18)
     ax.xaxis.set_major_formatter('${x:1.0f}K')
